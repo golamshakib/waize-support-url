@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Instruction from "../components/Instruction";
 import Security from "../components/Security";
-import UserGeneratedContent from "../components/UserGeneratedContent";
 
 export default function page() {
   return (
@@ -14,7 +13,7 @@ export default function page() {
         <Instruction />
         <DeleteResult />
         <Security />
-        <UserGeneratedContent />
+        {/* <UserGeneratedContent /> */}
         <ContactUs />
         <Footer />
       </div>
