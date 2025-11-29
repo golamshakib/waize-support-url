@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Afcomz",
-  description: "Afcomz Account Management",
+  title: "Waïzé",
+  description: "Waïzé Account Management",
 };
 
 export default function RootLayout({

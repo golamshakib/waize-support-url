@@ -10,7 +10,7 @@ export default function Header() {
         <div className="w-24 h-24 md:w-32 md:h-32 rounded-xl overflow-hidden shadow-2xl hover:shadow-red-500/30 transition-all transform hover:scale-105">
           <Image
             src={logo}
-            alt="Nouvi Logo"
+            alt="Waïzé Logo"
             className="w-full h-full object-cover"
             height={400}
             width={400}
@@ -21,14 +21,14 @@ export default function Header() {
             Support Contact
           </h1>
           <p className="text-lg text-slate-300 font-medium mt-2">
-            Nouvi- Discover, book, and connect with service providers near you with ease.
+            Waïzé- Discover, book, and connect with service providers near you with ease.
           </p>
         </div>
       </div>
 
       <div className="absolute -left-6 top-0 w-1 h-32 bg-gradient-to-b from-red-500 to-orange-500 rounded-full"></div>
       <p className="text-xl text-slate-300 font-medium">
-        At Nouvi, we prioritize your privacy and data security.
+        At Waïzé, we prioritize your privacy and data security.
       </p>
     </div>
   );

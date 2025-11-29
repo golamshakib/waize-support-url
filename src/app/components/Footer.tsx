@@ -6,14 +6,14 @@ export default function Footer() {
   return (
     <div className="border-t border-slate-700/50 pt-12 mt-16">
       <p className="text-slate-400 text-sm mb-8">
-        © {new Date().getFullYear()} Nouvi. All rights reserved.
+        © {new Date().getFullYear()} Waïzé. All rights reserved.
       </p>
 
       {/* Logo */}
       <div className="w-48 h-48 rounded-xl overflow-hidden shadow-2xl hover:shadow-red-500/20 transition-shadow">
         <Image
           src={logo}
-          alt="Nouvi Logo"
+          alt="Waïzé Logo"
           className="w-full h-full object-cover"
           height={400}
           width={400}
